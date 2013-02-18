@@ -16,6 +16,9 @@
 		6E34C5AB16D2372600A823CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E34C5AA16D2372600A823CA /* Default.png */; };
 		6E34C5AD16D2372600A823CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E34C5AC16D2372600A823CA /* Default@2x.png */; };
 		6E34C5AF16D2372600A823CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E34C5AE16D2372600A823CA /* Default-568h@2x.png */; };
+		6E34C5B716D2377200A823CA /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E34C5B616D2377200A823CA /* OpenGLView.m */; };
+		6E34C5B916D2379A00A823CA /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E34C5B816D2379A00A823CA /* OpenGLES.framework */; };
+		6E34C5BB16D237B200A823CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E34C5BA16D237B200A823CA /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,10 @@
 		6E34C5AA16D2372600A823CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6E34C5AC16D2372600A823CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6E34C5AE16D2372600A823CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6E34C5B516D2377200A823CA /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		6E34C5B616D2377200A823CA /* OpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
+		6E34C5B816D2379A00A823CA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6E34C5BA16D237B200A823CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E34C5BB16D237B200A823CA /* QuartzCore.framework in Frameworks */,
+				6E34C5B916D2379A00A823CA /* OpenGLES.framework in Frameworks */,
 				6E34C59916D2372600A823CA /* UIKit.framework in Frameworks */,
 				6E34C59B16D2372600A823CA /* Foundation.framework in Frameworks */,
 				6E34C59D16D2372600A823CA /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +60,8 @@
 		6E34C58916D2372600A823CA = {
 			isa = PBXGroup;
 			children = (
+				6E34C5B516D2377200A823CA /* OpenGLView.h */,
+				6E34C5B616D2377200A823CA /* OpenGLView.m */,
 				6E34C59E16D2372600A823CA /* HelloOpenGL */,
 				6E34C59716D2372600A823CA /* Frameworks */,
 				6E34C59516D2372600A823CA /* Products */,
@@ -68,6 +79,8 @@
 		6E34C59716D2372600A823CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E34C5BA16D237B200A823CA /* QuartzCore.framework */,
+				6E34C5B816D2379A00A823CA /* OpenGLES.framework */,
 				6E34C59816D2372600A823CA /* UIKit.framework */,
 				6E34C59A16D2372600A823CA /* Foundation.framework */,
 				6E34C59C16D2372600A823CA /* CoreGraphics.framework */,
@@ -166,6 +179,7 @@
 			files = (
 				6E34C5A516D2372600A823CA /* main.m in Sources */,
 				6E34C5A916D2372600A823CA /* AppDelegate.m in Sources */,
+				6E34C5B716D2377200A823CA /* OpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
