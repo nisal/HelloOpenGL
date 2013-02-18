@@ -1,0 +1,3 @@
+Based on tutorial by Ray Wenderlich
+
+http://www.raywenderlich.com/3664/opengl-es-2-0-for-iphone-tutorial
